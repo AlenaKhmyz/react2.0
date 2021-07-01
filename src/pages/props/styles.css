@@ -1,0 +1,40 @@
+.page__props {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    background-color: rgb(255, 0, 242);
+}
+
+.square-big {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 194, 241);
+    align-items: center;
+    justify-content: center;
+}
+  
+.square-less {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 194, 241);
+    align-items: center;
+    justify-content: center;
+}
+  
+.square-smollest {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 194, 241);
+    align-items: center;
+    justify-content: center;
+}
+  

@@ -1,0 +1,13 @@
+.boolean__button {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(216, 215, 215) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    padding: 1px 7px 2px;
+    color: initial;
+    text-align: center;
+    margin: 0em;
+    font-size: 20px;
+    font-weight: 500;
+}
