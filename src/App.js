@@ -8,6 +8,7 @@ import SetStatePage from './pages/setState/index.js'
 import PropsPage from './pages/props/index.js'
 import BooleanPage from './pages/boolean/index.js'
 import ListPage from './pages/list'
+import CheckboxPage  from './pages/checkbox'
 
 function App() {
   return (
@@ -18,12 +19,14 @@ function App() {
                 <Link to = {ROUTES.PROPS} className ='link'>Props</Link>
                 <Link to = {ROUTES.BOOLEAN} className ='link'>Boolean</Link>
                 <Link to = {ROUTES.LIST} className ='link'>List</Link>
+                <Link to = {ROUTES.CHECKBOX} className ='link'>Checkbox</Link>
             </nav>
             <Switch>
                 <Route path={ROUTES.SETSTATE} component={SetStatePage} /> 
                 <Route path={ROUTES.PROPS} component={PropsPage} /> 
                 <Route path={ROUTES.BOOLEAN} component={BooleanPage} /> 
                 <Route path={ROUTES.LIST}  component={ListPage} />
+                <Route path={ROUTES.CHECKBOX}  component={CheckboxPage} />
                 <Route path={ROUTES.MAIN}  component={MainPage} />
             </Switch>
     </BrowserRouter>

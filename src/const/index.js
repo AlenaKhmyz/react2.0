@@ -4,4 +4,5 @@ export const ROUTES = {
     PROPS: '/props',
     BOOLEAN: '/boolean',
     LIST: '/list',
+    CHECKBOX: '/checkbox',
 }

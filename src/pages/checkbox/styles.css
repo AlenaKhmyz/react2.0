@@ -1,0 +1,14 @@
+.page__checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    background-color: rgb(252, 191, 122);
+}
+
+.checkbox {
+    font-size: 200px;
+    color: rgb(197, 124, 39);
+}
