@@ -1,0 +1,12 @@
+.page__player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 42, 123);
+}
+
+.play {
+    width: 250px;
+    height: 550px;
+}

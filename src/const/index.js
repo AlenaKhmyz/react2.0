@@ -5,4 +5,6 @@ export const ROUTES = {
     BOOLEAN: '/boolean',
     LIST: '/list',
     CHECKBOX: '/checkbox',
+    PLAYER: '/player',
+    
 }
