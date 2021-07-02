@@ -3,4 +3,5 @@ export const ROUTES = {
     SETSTATE: '/set-state',
     PROPS: '/props',
     BOOLEAN: '/boolean',
+    LIST: '/list',
 }

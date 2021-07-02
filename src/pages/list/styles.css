@@ -1,0 +1,20 @@
+.page__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(236, 233, 42);
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 243, 199);
+    align-items: center;
+    justify-content: center;
+}
+
