@@ -13,9 +13,9 @@ class PlayerPage extends Component {
     changeState = () => {
         if (this.state.play === initial) {
             this.setState({play: process})
-        } else if (this.setState({play: process})) {
+        } else if (this.state.play === process) {
             this.setState({play: ok})
-        } else if (this.setState({play: ok})) {
+        } else if (this.state.play === ok) {
             this.setState({play: initial})
         }
     } 
