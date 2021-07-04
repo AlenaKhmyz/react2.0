@@ -6,5 +6,6 @@ export const ROUTES = {
     LIST: '/list',
     CHECKBOX: '/checkbox',
     PLAYER: '/player',
+    ANIMATED: '/animated'
     
 }

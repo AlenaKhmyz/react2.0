@@ -10,6 +10,7 @@ import BooleanPage from './pages/boolean/index.js'
 import ListPage from './pages/list'
 import CheckboxPage  from './pages/checkbox'
 import PlayerPage  from './pages/player'
+import AnimatedPage from './pages/animated'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Link to = {ROUTES.LIST} className ='link'>List</Link>
                 <Link to = {ROUTES.CHECKBOX} className ='link'>Checkbox</Link>
                 <Link to = {ROUTES.PLAYER} className ='link'>Player</Link>
+                <Link to = {ROUTES.ANIMATED} className ='link'>Animeted</Link>
             </nav>
             <Switch>
                 <Route path={ROUTES.SETSTATE} component={SetStatePage} /> 
@@ -30,6 +32,7 @@ function App() {
                 <Route path={ROUTES.LIST}  component={ListPage} />
                 <Route path={ROUTES.CHECKBOX}  component={CheckboxPage} />
                 <Route path={ROUTES.PLAYER}  component={PlayerPage} />
+                <Route path={ROUTES.ANIMATED}  component={AnimatedPage} />
                 <Route path={ROUTES.MAIN}  component={MainPage} />
             </Switch>
     </BrowserRouter>
