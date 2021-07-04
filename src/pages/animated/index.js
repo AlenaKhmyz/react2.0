@@ -12,7 +12,9 @@ class AnimatedPage extends React.Component{
 
     render() {
         return (
-            <div className="page__anime"></div>
+            <div className="page__animated">
+                {this.state.anime ? <button className="loader loader-animated" onClick={this.changeState}/> : <button className="animated-btn" onClick={this.changeState}>Loader</button> }
+            </div>
         )
     }
         
