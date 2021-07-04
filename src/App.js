@@ -11,6 +11,7 @@ import ListPage from './pages/list'
 import CheckboxPage  from './pages/checkbox'
 import PlayerPage  from './pages/player'
 import AnimatedPage from './pages/animated'
+import AnimePage from './pages/anime'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
                 <Link to = {ROUTES.LIST} className ='link'>List</Link>
                 <Link to = {ROUTES.CHECKBOX} className ='link'>Checkbox</Link>
                 <Link to = {ROUTES.PLAYER} className ='link'>Player</Link>
-                <Link to = {ROUTES.ANIMATED} className ='link'>Animeted</Link>
+                <Link to = {ROUTES.ANIMATED} className ='link'>Animated</Link>
+                <Link to = {ROUTES.ANIME} className ='link'>Anime</Link>
             </nav>
             <Switch>
                 <Route path={ROUTES.SETSTATE} component={SetStatePage} /> 
@@ -33,6 +35,7 @@ function App() {
                 <Route path={ROUTES.CHECKBOX}  component={CheckboxPage} />
                 <Route path={ROUTES.PLAYER}  component={PlayerPage} />
                 <Route path={ROUTES.ANIMATED}  component={AnimatedPage} />
+                <Route path={ROUTES.ANIME}  component={AnimePage} />
                 <Route path={ROUTES.MAIN}  component={MainPage} />
             </Switch>
     </BrowserRouter>

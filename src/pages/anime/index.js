@@ -1,7 +1,7 @@
 import React,  {Component} from 'react'
 import './styles.css'
 
-class AnimatedPage extends React.Component{
+class AnimePage extends React.Component{
     state = {
         anime: false
     }
@@ -9,7 +9,20 @@ class AnimatedPage extends React.Component{
     changeState = () => {
         this.state.anime ? this.setState({anime: false}) : this.setState({anime: true})
     }
-    
+
+    onClick = () => {
+        if (this.state.anime === false) {
+            return (
+                <button className="animated-btn" onClick={this.changeState}>Loader</button>
+            )
+        } else if (this.state.anime === false) {
+            return (
+                <button className="loader loader-animated" onClick={this.changeState}/>
+            )
+        } else if {
+            
+        }
+    }
 
     render() {
         return (
@@ -22,4 +35,4 @@ class AnimatedPage extends React.Component{
     
 }
   
-export default AnimatedPage
+export default AnimePage
