@@ -1,0 +1,33 @@
+.page__modification {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    background-color: rgb(136, 83, 83);
+}
+
+.modification__elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 40px;
+    height: 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(161, 129, 125);
+    color:rgb(238, 235, 223);
+    font-weight: 900;
+
+}
+
+.num {
+    margin: 0 auto;
+    color:rgb(238, 235, 223);
+    font-weight: 300;
+
+}
