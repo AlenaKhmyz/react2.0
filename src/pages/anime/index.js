@@ -7,32 +7,18 @@ class AnimePage extends React.Component{
     }
 
     changeState = () => {
-        this.state.anime ? this.setState({anime: false}) : this.setState({anime: true})
+        this.setState({anime: !this.state.anime})
     }
-
-    onClick = () => {
-        if (this.state.anime === false) {
-            return (
-                <button className="animated-btn" onClick={this.changeState}>Loader</button>
-            )
-        } else if (this.state.anime === false) {
-            return (
-                <button className="loader loader-animated" onClick={this.changeState}/>
-            )
-        } else if {
-            
-        }
-    }
+    
 
     render() {
         return (
             <div className="page__animated">
-                {this.state.anime ? <button className="loader loader-animated" onClick={this.changeState}/> : <button className="animated-btn" onClick={this.changeState}>Loader</button> }
+                <div className={`loader ${this.state.anime ?  'loader-animated' : ''}`}></div>
+                <button onClick={this.changeState}>Load</button>
             </div>
         )
     }
-        
-    
 }
   
 export default AnimePage
