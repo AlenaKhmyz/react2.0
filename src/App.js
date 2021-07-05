@@ -14,6 +14,7 @@ import AnimatedPage from './pages/animated'
 import AnimePage from './pages/anime'
 import DropDownPage from './pages/dropDown'
 import MenuPage from './pages/menu'
+import ModificationPage from './pages/modification'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
                 <Link to = {ROUTES.ANIME} className ='link'>Anime</Link>
                 <Link to = {ROUTES.DROPDOWN} className ='link'>Drop down</Link>
                 <Link to = {ROUTES.MENU} className ='link'>Menu</Link>
+                <Link to = {ROUTES.MODIFICATION} className ='link'>Modification</Link>
             </nav>
             <Switch>
                 <Route path={ROUTES.SETSTATE} component={SetStatePage} /> 
@@ -42,6 +44,7 @@ function App() {
                 <Route path={ROUTES.ANIME}  component={AnimePage} />
                 <Route path={ROUTES.DROPDOWN}  component={DropDownPage} />
                 <Route path={ROUTES.MENU}  component={MenuPage} />
+                <Route path={ROUTES.MODIFICATION}  component={ModificationPage} />
                 <Route path={ROUTES.MAIN}  component={MainPage} />
             </Switch>
     </BrowserRouter>

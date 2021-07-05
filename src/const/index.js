@@ -9,6 +9,8 @@ export const ROUTES = {
     ANIMATED: '/animated',
     ANIME: '/anime',
     DROPDOWN: '/drop-down',
-    MENU: '/menu'
+    MENU: '/menu',
+    MODIFICATION: '/modification',
+    
     
 }

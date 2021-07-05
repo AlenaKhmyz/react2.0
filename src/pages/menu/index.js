@@ -13,6 +13,7 @@ class CountIngridients extends React.Component {
         this.setState({count: this.state.count + 1})
         this.props.sum(1) 
     }
+    
     onDeleteCount = () => {
         if(this.state.count > 0) {
             this.setState({count: this.state.count - 1}) 
