@@ -19,6 +19,8 @@ class AnimePage extends React.Component{
             </div>
         )
     }
+
+    
 }
   
 export default AnimePage
