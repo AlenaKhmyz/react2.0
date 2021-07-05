@@ -1,0 +1,15 @@
+.page__drop-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(134, 205, 207);
+}
+
+.drop-down__btn {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    background-color: rgb(15, 190, 202);
+}
